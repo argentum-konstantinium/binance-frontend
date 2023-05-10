@@ -1,0 +1,95 @@
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/client/components/Header/Navigation/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+button {
+  border: none;
+  background-color: transparent; }
+  button:not(:disabled) {
+    cursor: pointer; }
+
+.Cv6wOdFfIJ_KtYBFhzUb {
+  display: block; }
+  .tvPfx6YtOXzeICgiQea5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .F9Dj0qGr3AqW2ozlOyRb {
+    display: block; }
+  .VyxgiItgmEh14vTGnbwz {
+    display: block;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    position: relative;
+    text-align: center; }
+    .VyxgiItgmEh14vTGnbwz::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      pointer-events: none; }
+    @media (hover: hover) and (pointer: fine) {
+      .VyxgiItgmEh14vTGnbwz:hover {
+        background: #52337f; }
+        .VyxgiItgmEh14vTGnbwz:hover::before {
+          border-color: #dedede; } }
+
+/*!******************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./src/client/components/Header/style.scss ***!
+  \******************************************************************************************************************************************************************************************/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+button {
+  border: none;
+  background-color: transparent; }
+  button:not(:disabled) {
+    cursor: pointer; }
+
+.alGIP5RSFYME5dg4LbqO {
+  background: #764abc;
+  padding: 6px 12px; }
+

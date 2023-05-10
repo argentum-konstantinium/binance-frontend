@@ -1,0 +1,71 @@
+@import './font.scss';
+
+@mixin headline-big-text {
+  @include font((
+          'fs': 32px,
+          'lh': 42px
+  ))
+}
+
+@mixin headline-medium-text {
+  @include font((
+          'fs': 26px,
+          'lh': 34px
+  ))
+}
+
+@mixin headline-normal-text {
+  @include font((
+          'fs': 24px,
+          'lh': 34px
+  ))
+}
+
+@mixin headline-small-text {
+  @include font((
+          'fs': 20px,
+          'lh': 30px
+  ))
+}
+
+@mixin extra-big-text {
+  @include font((
+          'fs': 22px,
+          'lh': 32px
+  ));
+}
+
+@mixin big-text {
+  @include font((
+          'fs': 20px,
+          'lh': 28px
+  ))
+}
+
+@mixin medium-text {
+  @include font((
+          'fs': 18px,
+          'lh': 28px
+  ))
+}
+
+@mixin normal-text {
+  @include font((
+          'fs': 16px,
+          'lh': 24px
+  ))
+}
+
+@mixin small-text {
+  @include font((
+          'fs': 14px,
+          'lh': 20px
+  ))
+}
+
+@mixin tiny-text {
+  @include font((
+          'fs': 12px,
+          'lh': 18px
+  ))
+}

@@ -1,0 +1,47 @@
+
+.navigation {
+  display: block;
+  &__list {
+    @include dFlex((
+      jc: space-between,
+      ai: center,
+    ));
+  }
+
+  &__list-item {
+    display: block;
+  }
+
+  &__list-link {
+    display: block;
+    border-radius: 4px;
+    padding: 6px 12px;
+    @include small-text;
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+
+
+
+    &::before {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      pointer-events: none;
+    }
+
+    @include hover {
+      background: #52337f;
+
+      &::before {
+        border-color: #dedede;
+      }
+    }
+
+  }
+}

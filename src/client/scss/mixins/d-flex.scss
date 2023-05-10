@@ -1,0 +1,24 @@
+@mixin dFlex($params) {
+  $jc: map-get($params, 'jc');
+  $ai: map-get($params, 'ai');
+  $dir: map-get($params, 'fd');
+  $ac: map-get($params, 'ac');
+  $fw: map-get($params, 'fw');
+
+  display: flex;
+  @if($jc) {
+    justify-content: $jc;
+  }
+  @if ($ai) {
+    align-items: $ai;
+  }
+  @if($dir) {
+    flex-direction: $dir;
+  }
+  @if($ac) {
+    align-content: $ac;
+  }
+  @if($fw) {
+    flex-wrap: $fw;
+  }
+}

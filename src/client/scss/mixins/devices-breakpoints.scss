@@ -1,0 +1,49 @@
+@import "../variables/devices-breakpoints.scss";
+
+@mixin tablet() {
+  @media (min-width: $min-tablet) {
+    @content;
+  }
+}
+
+@mixin big-tablet() {
+  @media (min-width: $min-big-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (min-width: $min-desktop) {
+    @content;
+  }
+}
+
+@mixin desktop-wide() {
+  @media (min-width: $min-desktop-wide) {
+    @content;
+  }
+}
+
+@mixin max-tablet {
+  @media (max-width: $max-mobile) {
+    @content
+  }
+}
+
+@mixin max-big-tablet {
+  @media (max-width: $max-tablet) {
+    @content
+  }
+}
+
+@mixin max-desktop {
+  @media (max-width: $max-big-tablet) {
+    @content;
+  }
+}
+
+@mixin max-desktop-wide {
+  @media (max-width: $max-desktop) {
+    @content;
+  }
+}

@@ -1,0 +1,8 @@
+@import './no-touch-device.scss';
+@mixin hover() {
+  &:hover {
+    @include no-touch-device {
+      @content;
+    }
+  }
+}

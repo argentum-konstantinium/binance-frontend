@@ -1,0 +1,23 @@
+@mixin font($params) {
+  $fs: map-get($params, 'fs');
+  $fw: map-get($params, 'fw');
+  $lh: map-get($params, 'lh');
+  $ls: map-get($params, 'ls');
+  $ff: map-get($params, '$ff');
+
+  @if ($fs) {
+    font-size: $fs;
+  }
+
+  @if ($fw) {
+    font-weight: $fw;
+  }
+
+  @if ($lh) {
+    line-height: $lh;
+  }
+
+  @if ($ls) {
+    letter-spacing: $ls;
+  }
+}
